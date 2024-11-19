@@ -17,8 +17,7 @@ def solve(s):
             else:
                 singleChars = list(i)
                 for i in singleChars:
-                    if i in map:
-                        value += map[i]
+                    value += map[i]
         return value
         
   
